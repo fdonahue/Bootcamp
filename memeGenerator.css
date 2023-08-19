@@ -1,0 +1,82 @@
+h1 {
+    color: rgb(198, 198, 198);
+    display: flexbox;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+
+
+Form{
+    background-color:  lightgray;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+button{
+    float: right;
+}
+
+
+label {
+    display: table-cell;
+    width: 1px;
+    white-space: nowrap;
+}
+
+
+input {
+    width: 500px;
+    /* justify-content: center; */
+    /* box-sizing: border-box; */
+    left: 50%;
+}
+
+.bottomText {
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #ffffff;
+    z-index: auto;
+    text-shadow:0 0 3px #000000, 0 0 5px #000000 ;
+    font-size: 3.5rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.topText {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #ffffff;
+    z-index: auto;
+    text-shadow:0 0 3px #000000, 0 0 5px #000000 ;
+    font-size: 3.5rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.newMeme {
+     justify-content: center;
+     float: left;
+     position: relative;
+     max-width: 100%;   
+}
+
+
+image {
+    max-width: 100%;
+}
+
+
+div image{
+    padding:13px;
+    min-width:250px;
+    min-height:250px;
+    display:inline-block;
+}
