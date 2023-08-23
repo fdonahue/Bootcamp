@@ -1,0 +1,6 @@
+1 git checkout -b
+2 fast forwards can only be done if there are no commits on original branch.
+3 git checkout to change to other branch
+4 git branch -D to delete branch
+5 conflicts occur when git can't figure out which file or folder to pick when merging.
+because there are different commits to same file.
