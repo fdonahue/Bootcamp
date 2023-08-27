@@ -1,0 +1,13 @@
+part 1:
+
+const pi = 3.14;
+
+quiz:
+
+1. var can be redeclared while let cannot. let is block scope. var can be hoisted.
+
+2. const can neither be redeclared or reassigned. var can be both. const is block scope.
+
+3. let can be reassigned, const cannot.
+
+4. when a variable is "moved" to the top of the scope and can be used before it is declared later on.
