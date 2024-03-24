@@ -1,0 +1,80 @@
+/* * {
+   box-sizing: border-box; 
+}
+
+:focus {
+  TODO 
+} */
+
+body {
+  /* TODO */
+  background-image: linear-gradient(to right, rgb(255, 234, 0) , rgb(255, 98, 0));
+  color: black;
+}
+
+input {
+ /* TODO */
+}
+
+.search-row {
+
+display: flex;
+align-items: center;
+padding: 10px 20px;
+
+}
+
+
+
+.search-container {
+ /* TODO */
+ width: 600px;
+ background: rgba(197, 197, 197, 0.3);
+ margin: 200px auto 0;
+ border-radius: 5px;
+}
+/* .search-container input,
+.search-container .suggestions {
+  /* TODO 
+} */
+.search-container input {
+ /* TODO */
+ flex: 1;
+ height: 50px;
+ background: transparent;
+ border: 0;
+ outline: 0;
+ font-size: 15px;
+ color: black;
+}
+
+::placeholder{
+  color: black;
+}
+
+.search-container .suggestions {
+   /* TODO */
+
+}
+
+ul {
+  /* TODO */
+}
+ul.has-suggestions {
+  /* TODO */
+}
+ul li {
+  /* TODO */
+  list-style: none;
+  border-radius: 2px;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+ul li:hover {
+  /* TODO */
+  background: peachpuff;
+}
+
+input {
+   /* TODO */
+}
