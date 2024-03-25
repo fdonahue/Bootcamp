@@ -1,0 +1,15 @@
+<!--extend base html file-->
+{% extends 'base.html' %}
+{% block title %}My awesome page title{% endblock %}
+
+{% block content %}
+<!--take survey tilte and inst from surveys.py-->
+  <h2>{{survey.title}}</h2>
+  <p>{{survey.instructions}}</p>
+<!--create button to redirect to /start route-->
+  <form action="/start" method="POST">
+    <button>Start!</button>
+  </form>
+
+{% endblock %}
+
