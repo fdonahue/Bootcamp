@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!--take survey tilte and inst from surveys.py-->
+<h1>{{question.question}}</h1>
+<!--create button to redirect to /start route-->
+<form action="/answers" method="POST">
+    {% for choice in question.choices %}
+    <p><input type="radio" name="answers" value="{{ choice }}"> {{ choice }}</p>
+    {% endfor %}
+    </select>
+    <button>Continue</button>
+</form>
+
+{% endblock %}
